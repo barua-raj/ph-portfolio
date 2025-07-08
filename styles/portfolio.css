@@ -10,12 +10,38 @@
 .text-primary{
     color: #FD6E0A;
 }
+.dark-2{
+    color: #474747;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 18px 35px;
+    border-radius: 5px;
+    
+}
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
 .nav-title{
     font-size: 45px;
     font-weight: 800;
 }
-
-/* nav styles */
-nav{
+nav ul{
     display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
 }
